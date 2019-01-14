@@ -149,7 +149,7 @@ ADD_LIBRARY(randlib
 
 ADD_LIBRARY(RandLib::RandLib ALIAS randlib)
 
-include_directories(randlib INTERFACE
+include_directories(randlib PUBLIC
         distributions/..
         distributions/bivariate
         distributions/univariate
